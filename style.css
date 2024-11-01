@@ -39,14 +39,14 @@ body{
 #navbar li a{
     text-decoration: none;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 450;
     color: #1a1a1a;
     transition: 0.3sec ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #088178;
+    color: #e5960e;
 }
 
 #navbar li a.active::after,
@@ -54,7 +54,7 @@ body{
     content: "";
     width: 30px;
     height: 2px;
-    background-color: #088178;
+    background-color: #e5960e;
     position: absolute;
     bottom: -4px;
     left: 20px;
